@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f7f2eb;
+    color:#3f352b;
+    overflow-x:hidden;
+}
+
+img{
+    display:block;
+    max-width:100%;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    border:none;
+    cursor:pointer;
+    background:none;
+}
+
+:root{
+
+    --bg:#f7f2eb;
+
+    --card:#ffffff;
+
+    --gold:#b68b3d;
+
+    --text:#40362e;
+
+    --muted:#88796b;
+
+    --shadow:0 18px 45px rgba(0,0,0,.08);
+
+    --radius:28px;
+
+}

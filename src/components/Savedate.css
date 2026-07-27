@@ -1,0 +1,199 @@
+.save-date{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(
+        180deg,
+        #fdfbf8,
+        #f5eee5
+    );
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.save-date::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:450px;
+    height:450px;
+
+    border:1px solid rgba(212,175,55,.15);
+
+    border-radius:50%;
+
+    top:-180px;
+    left:-180px;
+
+}
+
+.save-date::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:350px;
+    height:350px;
+
+    border:1px solid rgba(212,175,55,.15);
+
+    border-radius:50%;
+
+    bottom:-150px;
+    right:-150px;
+
+}
+
+.save-content{
+
+    width:min(700px,90%);
+
+    text-align:center;
+
+    z-index:2;
+
+}
+
+.subtitle{
+
+    color:#b8892d;
+
+    letter-spacing:6px;
+
+    text-transform:uppercase;
+
+    font-size:14px;
+
+}
+
+.save-content h2{
+
+    margin-top:20px;
+
+    font-family:"Cormorant Garamond";
+
+    font-size:46px;
+
+    color:#6e1b2d;
+
+}
+
+.couple{
+
+    margin-top:30px;
+
+    font-family:"Great Vibes";
+
+    font-size:82px;
+
+    font-weight:400;
+
+    color:#b8892d;
+
+    line-height:1.2;
+
+}
+
+.couple span{
+
+    display:block;
+
+    color:#6e1b2d;
+
+    margin:10px 0;
+
+}
+
+.date{
+
+    margin-top:35px;
+
+}
+
+.date p{
+
+    color:#888;
+
+    font-size:18px;
+
+}
+
+.date h3{
+
+    margin-top:10px;
+
+    color:#c49a43;
+
+    font-size:36px;
+
+    font-family:"Cormorant Garamond";
+
+}
+
+.open-btn{
+
+    margin-top:50px;
+
+    padding:16px 45px;
+
+    border:none;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    background:linear-gradient(
+        135deg,
+        #d8b56b,
+        #b8862b
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    letter-spacing:2px;
+
+    font-family:"Cormorant Garamond";
+
+    box-shadow:0 15px 35px rgba(184,134,43,.35);
+
+    transition:.3s;
+
+}
+
+.open-btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 20px 45px rgba(184,134,43,.45);
+
+}
+
+@media(max-width:768px){
+
+    .couple{
+
+        font-size:60px;
+
+    }
+
+    .save-content h2{
+
+        font-size:36px;
+
+    }
+
+}

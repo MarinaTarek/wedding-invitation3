@@ -1,0 +1,48 @@
+.petals{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    pointer-events:none;
+    z-index:9999;
+}
+
+.petal{
+
+    position:absolute;
+
+    top:-50px;
+
+    font-size:26px;
+
+    animation:fall linear infinite;
+
+    opacity:.35;
+
+}
+
+@keyframes fall{
+
+    0%{
+        transform:
+        translateY(-100px)
+        rotate(0deg);
+    }
+
+    100%{
+
+        transform:
+        translateY(120vh)
+        translateX(80px)
+        rotate(360deg);
+
+    }
+
+}
+.p1{left:5%;animation-duration:8s;}
+.p2{left:18%;animation-duration:10s;animation-delay:1s;}
+.p3{left:32%;animation-duration:9s;animation-delay:3s;}
+.p4{left:47%;animation-duration:11s;animation-delay:2s;}
+.p5{left:60%;animation-duration:8s;animation-delay:5s;}
+.p6{left:74%;animation-duration:10s;animation-delay:4s;}
+.p7{left:86%;animation-duration:9s;animation-delay:2s;}
+.p8{left:94%;animation-duration:12s;animation-delay:6s;}
