@@ -35,7 +35,7 @@ export default function Location() {
         </p>
 
        <a
-  href="https://www.google.com/maps/search/?api=1&query=St+Mark+Coptic+Orthodox+Cathedral+Cairo"
+  href="https://www.google.com/maps/search/?api=1&query=Cairo+Egypt"
   target="_blank"
   rel="noreferrer"
   className="map-btn"
