@@ -34,14 +34,14 @@ export default function Location() {
           Cairo, Egypt
         </p>
 
-        <a
-          href="https://maps.google.com"
-          target="_blank"
-          rel="noreferrer"
-          className="map-btn"
-        >
-          Open in Google Maps
-        </a>
+       <a
+  href="https://www.google.com/maps/search/?api=1&query=St+Mark+Coptic+Orthodox+Cathedral+Cairo"
+  target="_blank"
+  rel="noreferrer"
+  className="map-btn"
+>
+  Open in Google Maps
+</a>
 
       </div>
 
